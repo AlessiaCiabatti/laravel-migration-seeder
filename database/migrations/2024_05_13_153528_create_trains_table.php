@@ -39,6 +39,7 @@ return new class extends Migration
      *
      * @return void
      */
+    // rollback se esiste la tabella trains cancellala
     public function down()
     {
         Schema::dropIfExists('trains');
