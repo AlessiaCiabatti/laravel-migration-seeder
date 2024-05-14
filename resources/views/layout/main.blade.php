@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!-- Styles -->
         @vite('resources/js/app.js')
-    <title>Document</title>
+    <title>Treni | @yield('title')</title>
 </head>
 
 <body>
