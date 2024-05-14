@@ -26,8 +26,8 @@ return new class extends Migration
             $table->time('departure_time');
             $table->string('train_code', 50);
             $table->tinyInteger('number_carriages')->unsigned();
-            $table->time('in_time');
-            $table->string('cancelled');
+            $table->boolean('in_time')->default(true);
+            $table->string('cancelled')->default(false);
             $table->text('description')->nullable();
             $table->boolean('aviable_train')->default(true);
             $table->timestamps();
