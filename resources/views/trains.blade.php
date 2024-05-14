@@ -29,4 +29,6 @@ I Treni
     </tbody>
   </table>
 
+  {{$trains->links()}}
+
 @endsection
